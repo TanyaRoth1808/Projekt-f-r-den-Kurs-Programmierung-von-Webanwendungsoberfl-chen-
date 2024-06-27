@@ -1,4 +1,3 @@
-# Projekt-f-r-den-Kurs-Programmierung-von-Webanwendungsoberfl-chen-
 <!DOCTYPE html>
 <html lang="de">
     <head>
