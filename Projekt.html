@@ -10,9 +10,6 @@
             header {background-color: rgb(255, 184, 175);}
             header nav ul {text-align: right}
             header nav ul li {display: inline;}
-            main {display: flex;}
-            main nav {width: 40%; float: left; background-color: rgb(156, 156, 255);}
-            main div#content {width: 60%; float: left; background-color: #aff;}
             footer {clear: both; background-color: rgb(243, 191, 191);}
             footer nav ul {text-align: center;}
             footer nav ul li {display: inline;}
@@ -25,9 +22,8 @@
                 padding: 1em;
                 border: 5px solid black;
             }
-            h1, h2 {color: rgb(253, 34, 34);}
+            h1 {color: rgb(253, 34, 34);}
             h3, h4 {color: coral;}
-            table {font-size: 200%;}
             body {background-color: antiquewhite;}
             .imgzentriert {
                 display: block;
@@ -55,7 +51,7 @@
                     <li class="d-inline"><a
                         href="formular.html">Formular</a></li><br>
                     <li class="d-inline"><a 
-                        href="arbeitszeiten.html">Arbeitszeiten</a></li><br>
+                        href="arbeitszeiten.html">Arbeitszeiten und Kontaktdaten</a></li><br>
                     <li class="d-inline"><a 
                         href="https://www.kleiderstiftung.de/kontakt">Kontaktinformationen von Deutsche Kleiderstiftung</a></li><br>
                     
@@ -64,7 +60,7 @@
             </nav>
         </header>
 
-        
+        <main>
         <h4>Über uns</h4>
         <p>
             Die Wohltätigkeitsstiftung "Gute Sachen" ist die größte gemeinnützige Organisation in Deutschland, die Kleidung annimmt und an Menschen aus sozial benachteiligten Gruppen und gefährlichen oder einkommensschwachen Regionen weitergibt.
@@ -95,12 +91,13 @@
         </p>
         
         <p>
-            In Berlin, Hamburg, München und vielen anderen Städten haben Sie die Möglichkeit, Kleidung direkt von Ihrem Zuhause abzuholen zu lassen. 
+            In Berlin, Hamburg, Waldkraiburg und vielen anderen Städten haben Sie die Möglichkeit, Kleidung direkt von Ihrem Zuhause abzuholen zu lassen. 
             Die Mitglieder unserer Gemeinschaft haben eine Bitte an diejenigen, die Kleidung spenden möchten: Die Kleidung sollte in gutem, akzeptablem Zustand sein (ohne bleibende Flecken, Löcher und gewaschen).
         </p>
 
 
         <h3 align="middle">Formular, mit dem die Kleiderspende regestriert werden kann</h3>
+        <h6><i>(*)Pflichtfelder</i></h6>
         <h5><u>Name</u>(*)</h5>
         <form>
             <input type="text" name="name" placeholder="Vorname">
@@ -115,7 +112,7 @@
         <form>
             <input type="text" name="city" placeholder="Stadt">
         </form>
-        <form>
+        <form> 
             <input type="text" name="street" placeholder="Straße">
         </form>
         <form>
@@ -263,12 +260,17 @@
             <label for="check13">Andere Kleidungsstücke</label><br>
             </ul>
         </fieldset>
-
+    </main>
 
         <footer> 
             <nav>
                 <ul>
-                    <li></li>
+                    <li>
+                        <a href="privacy.html">Datenschutz</a>
+                    </li>
+                    <li>
+                        <a href="imprint.html">Impressum</a>
+                    </li>
                 </ul>
             </nav>
         </footer>
