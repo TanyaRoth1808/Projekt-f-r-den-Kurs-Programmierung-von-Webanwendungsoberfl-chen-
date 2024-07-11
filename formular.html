@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title> Kleiderspende "Gute Sachen" </title>
+        <link rel="Stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2/dist/css/bootstrap.min.css">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title> Homepage von Kleiderspende "Gute Sachen"</title>
+        <style type="text/css">
+            header {background-color: rgb(255, 184, 175);}
+            header nav ul {text-align: right}
+            header nav ul li {display: inline;}
+            footer {clear: both; background-color: rgb(243, 191, 191);}
+            footer nav ul {text-align: center;}
+            footer nav ul li {display: inline;}
+            @media screen and (max-width: 767px) {
+                main {display: block;}
+                main nav, main div#content {width: 100%;}
+            }
+            h1{
+                background-color: rgb(255, 255, 255);
+                padding: 1em;
+                border: 5px solid black;
+            }
+            h1 {color: rgb(253, 34, 34);}
+            h3, h4 {color: coral;}
+            body {background-color: antiquewhite;}
+        </style>
+    </head>
+    <body>
+        <h1> Kleiderspende "Gute Sachen"<img src="https://img.freepik.com/premium-vector/round-circle-logo-icon-sign-symbol-red-design-vector-illustration_685751-586.jpg" alt="Logo für die Kleiderspendestiftung" width="100" height="100"></h1>
+        <header>
+            <nav>
+                <ul>
+                    <li class="d-inline">
+                        <form>
+                            <input type="text" name="suche" placeholder="Suche">
+                        </form>
+                    </li>
+                    <li class="d-inline"><a
+                        href="Projekt.html">Homepage</a></li><br>
+                    <li class="d-inline"><a
+                        href="über uns.html">Über uns</a></li><br>
+                    <li class="d-inline"><a
+                        href="formular.html">Formular</a></li><br>
+                    <li class="d-inline"><a 
+                        href="arbeitszeiten.html">Arbeitszeiten</a></li><br>
+                    <li class="d-inline"><a 
+                        href="https://www.kleiderstiftung.de/kontakt">Kontaktinformationen von Deutsche Kleiderstiftung</a></li><br> 
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+        <h3 align="middle">Formular, mit dem die Kleiderspende regestriert werden kann</h3>
+        <h5><u>Name</u>(*)</h5>
+        <form>
+            <input type="text" name="name" placeholder="Vorname">
+        </form>
+        <form>
+            <input type="text" name="surename" placeholder="Nachname">
+        </form>
+        <h5><u>Adresse</u>(*)</h5>
+        <form>
+            <input type="text" name="plz" placeholder="Postleitzahl">
+        </form>
+        <form>
+            <input type="text" name="city" placeholder="Stadt">
+        </form>
+        <form>
+            <input type="text" name="street" placeholder="Straße">
+        </form>
+        <form>
+            <input type="text" name="house number" placeholder="Hausnummer">
+        </form>
+        <h5><u>E-Mail</u></h5>
+        <form>
+            <input type="text" name="e-mail" placeholder="beispiel@beispiel.de">
+        </form>
+        <h5><u>Telefonnummer</u>(*)</h5>
+        <form>
+            <input type="text" name="phone number" placeholder="Eine gültige Telefonnummer eingeben!">
+        </form>
+
+
+        <h5><u>Art des Übergebens</u>(*)</h5>
+        <select name="list">
+            <option>An der Geschäftsstelle übergeben</option>
+            <option>Die Kleidung sollte von einem Sammelfahrzeug abgeholt werden</option>
+        </select>
+
+        <h5><u>Falls Sie die Kleidung an der Geschäftsstelle übergeben möchten, dann suchen Sie eine Geschäftsstelle in Ihre Nähe</u></h5>
+        <form>
+            <input type="text" name="plz geschaeftsstelle" placeholder="Postleitzahl der Geschäftsstelle">
+        </form>
+
+        <h5><u>Wie ist der Zustand des Kleides?</u>(*)</h5>
+        <ul>
+            <input name="zustand" type="radio"> Brandneu <br>
+            <input name="zustand" type="radio"> Sehr guter Zustand <br>
+            <input name="zustand" type="radio"> Guter Zustand <br>
+            <input name="zustand" type="radio"> Durchschnittlicher Zustand <br>
+            <input name="zustand" type="radio"> Schlechter Zustand <br>
+        </ul>
+
+        <h5><u>Aus welchem Stoff ist die Kleidung?</u></h5>
+        <fieldset>
+            <ul>
+            <input type="checkbox" name="stoff" value="baumwollgewebe" id="check1">
+            <label for="check1">Baumwollgewebe</label><br>
+            <input type="checkbox" name="stoff" value="leinenstoff" id="check2">
+            <label for="check2">Leinenstoff</label><br>
+            <input type="checkbox" name="stoff" value="leder" id="check3">
+            <label for="check3">Leder</label><br>
+            <input type="checkbox" name="stoff" value="chiffon" id="check4">
+            <label for="check4">Chiffon</label><br>
+            <input type="checkbox" name="stoff" value="polyester" id="check5">
+            <label for="check5">Polyester</label><br>
+            <input type="checkbox" name="stoff" value="denim" id="check6">
+            <label for="check6">Denim</label><br>
+            <input type="checkbox" name="stoff" value="viskose" id="check7"
+            <label for="check7">Viskose</label><br>
+            <input type="checkbox" name="stoff" value="krepp" id="check8"
+            <label for="check8">Krepp</label><br>
+            <input type="checkbox" name="stoff" value="netz- oder spitzenstoff" id="check9"
+            <label for="check9">Netz- oder Spitzenstoff</label><br>
+            <input type="checkbox" name="stoff" value="seidenstoff" id="check10"
+            <label for="check10">Seidenstoff</label><br>
+            <input type="checkbox" name="stoff" value="wolle" id="check11"
+            <label for="check11">Wolle</label><br>
+            <input type="checkbox" name="stoff" value="georgette" id="check12"
+            <label for="check12">Georgette</label><br>
+            <input type="checkbox" name="stoff" value="nylon" id="check13"
+            <label for="check13">Nylon</label><br>
+            <input type="checkbox" name="stoff" value="samt" id="check14"
+            <label for="check14">Samt</label><br>
+            <input type="checkbox" name="stoff" value="rayon" id="check15"
+            <label for="check15">Rayon</label><br>
+            <input type="checkbox" name="stoff" value="satin" id="check16"
+            <label for="check16">Satin</label><br>
+            <input type="checkbox" name="stoff" value="lycra" id="check17"
+            <label for="check17">Lycra</label><br>
+            <input type="checkbox" name="stoff" value="anderer stoff" id="check18"
+            <label for="check18">Anderer Stoff</label><br>
+            </ul>
+        </fieldset>
+
+        <h5><u>Art der Kleidung</u>(*)</h5>
+        <fieldset id="toppings"> 
+            <ul>
+            <input type="checkbox" name="art der kleidung" value="hemd/bluse" id="check1">
+            <label for="check1">Hemd/Bluse</label><br>
+            <input type="checkbox" name="art der kleidung" value="hose" id="check2">
+            <label for="check2">Hose</label><br>
+            <input type="checkbox" name="art der kleidung" value="kleid, rock" id="check3">
+            <label for="check3">Kleid, Rock</label><br>
+            <input type="checkbox" name="art der kleidung" value="pullover/sweatshirt" id="check4">
+            <label for="check4">Pullover/Sweatshirt</label><br>
+            <input type="checkbox" name="art der kleidung" value="t-shirt" id="check5">
+            <label for="check5">T-Shirt</label><br>
+            <input type="checkbox" name="art der kleidung" value="jacke" id="check6">
+            <label for="check6">Jacke</label><br>
+            <input type="checkbox" name="art der kleidung" value="sportanzug" id="check7">
+            <label for="check7">Sportanzug</label><br>
+            <input type="checkbox" name="art der kleidung" value="pyjama/Bademantel" id="check8">
+            <label for="check8">Pyjama/Bademantel</label><br>
+            <input type="checkbox" name="art der kleidung" value="schuhe" id="check9">
+            <label for="check9">Schuhe</label><br>
+            <input type="checkbox" name="art der kleidung" value="socken" id="check10">
+            <label for="check10">Socken</label><br>
+            <input type="checkbox" name="art der kleidung" value="muetze" id="check11">
+            <label for="check11">Mütze</label><br>
+            <input type="checkbox" name="art der kleidung" value="babykleidung" id="check12">
+            <label for="check12">Babykleidung</label><br>
+            <input type="checkbox" name="art der kleidung" value="andere kleidungsstuecke" id="check13">
+            <label for="check13">Andere Kleidungsstücke</label><br>
+            </ul>
+        </fieldset>
+        </main>
+        
+        <footer> 
+            <nav>
+                <ul>
+                    <li>
+                        <a href="privacy.html">Datenschutz</a>
+                    </li>
+                    <li>
+                        <a href="imprint.html">Impressum</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
